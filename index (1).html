@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Animation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #flower {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            animation: flowerAnimation 3s infinite;
+        }
+        @keyframes flowerAnimation {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        #message {
+            font-size: 1.5em;
+            color: #444;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="flower">
+        <img src="https://www.example.com/flower.png" alt="Flower" />
+    </div>
+    <h1>Flower Animation</h1>
+    <div id="message">I love you, Kyro!</div>
+
+</body>
+</html>
